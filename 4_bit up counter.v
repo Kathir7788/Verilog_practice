@@ -1,7 +1,7 @@
 module up_counter(
   input clk,
   input rst,
-  outpt reg [3:0]count
+  output reg [3:0]count
 );
 
   always @(posedge clk) begin
